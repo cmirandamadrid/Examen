@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="container">
+<br>
+<h1>Agenda</h1>
+<br>
+  <div class="row text-white">
+    <div class="col-6 text-dark border-subtle">
+    	<label class="text-primary fs-3">Datos del Dueño</label>
+   			 <form style="border:1px solid black;padding:1rem;border-radius: 0.5rem;">
+				<div class="form-group">
+		          <label for="Rut">Rut</label>
+		          <input type="text" class="form-control" id="Rut"/>
+		          
+		          <label for="Nombre">Nombre</label>
+		          <input type="text" class="form-control" id="Nombre"/>
+
+		          <label for="Apellido">Apellido</label>
+		          <input type="text" class="form-control" id="Apellido"/>
+
+		          <label for="Direccion">Dirección</label>
+		          <input type="text" class="form-control" id="Direccion"/>
+		        
+		          <label for="Correo">Correo</label>
+		          <input type="email" class="form-control" id="Correo"/>
+		        
+		          <label for="Telefono">Teléfono</label>
+		          <input type="text" class="form-control" id="Telefono"/>
+		        
+		          <label for="NombreMascota">Nombre Mascota</label>
+		          <input type="text" class="form-control" id="NombreMascota"/>
+		        </div>
+		      </form>
+	</div>
+    <div class="col-6 text-dark border-subtle">
+    <label class="text-primary fs-3">Datos de la Mascota </label>
+			<form style="border:1px solid black;padding:1rem;border-radius: 0.5rem;">			
+				<select class="form-select" aria-label="Default select example">
+				  <option selected>Tipo Mascota</option>
+				  <option value="1">Perro</option>
+				  <option value="2">Gato</option>
+				  <option value="3">Tortuga</option>
+				  <option value="3">Hamster</option>
+				  <option value="3">Otro</option>
+				</select>				
+		        <div class="form-group">
+		          <label for="Edad">Edad</label>
+		          <input type="text" class="form-control" id="Edad"/>
+		        </div>		        
+			</form>			
+			<br>
+			<label class="text-primary fs-3">Fecha Consulta</label>
+			<form style="border:1px solid black;padding:1rem;border-radius: 0.5rem;">			
+				
+		        <div class="form-group">
+		          <label for="Fecha">Fecha</label>
+		          <input type="date" class="form-control" id="Fecha"/>
+		        </div>
+		       	<div class="form-group">
+		          <label for="Hora">Hora</label>
+		          <input type="text" class="form-control" id="Hora"/>
+		        </div>
+		        <br />
+		        <div class="form-group">
+		          <button type="button" class="btn btn-primary center-block" id="BotonLogin">
+		          	Ingresar</button>
+		        </div>
+			</form>
+	</div>
+  </div>
+</div>
+</body>
+</html>
